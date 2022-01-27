@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background: url("images/bg-desktop.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 8% 0 0 0;
+}
+p {
+  color: white;
+
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 3% 3% 0 0;
+}
+
+.container {
+  margin: 4% 4% 8% 4%;
+}
+
+.logo {
+  width: 15vw;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6% 0 0 0;
+}
+
+.hero-img {
+  flex: 60%;
+}
+
+.hero-text {
+  flex: 40%;
+}
+
+.img-hero {
+  max-width: 100%;
+  max-height: 100%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+.cta {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 30px;
+  font-size: 18px;
+  color: hsl(257, 40%, 49%);
+  background: #ffffff;
+  padding: 15px 64px 15px 64px;
+  text-decoration: none;
+  border: none;
+  margin-top: 4%;
+  box-shadow: 0px 5px 20px -5px black;
+}
+
+.cta:hover {
+  background: hsl(300, 69%, 71%);
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-social {
+  text-align: end;
+}
+
+.soc-icon {
+  width: 24px;
+  filter: invert(100%);
+  border: black solid 1px;
+  border-radius: 28px;
+  padding: 12px;
+  margin: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  background: url("images/bg-desktop.svg") no-repeat cover center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 24%;
+  }
+  p {
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 400;
+  }
+  .hero {
+    margin: 12% 5%;
+  }
+
+  .logo {
+    width: 34vw;
+    margin-left: 3%;
+    margin-top: 6%;
+  }
+  .button {
+    text-align: center;
+  }
+  .icon-social {
+    text-align: center;
+  }
+
+  .cta {
+    padding: 14px 84px 14px 84px;
+    margin: 10% 0 6% 0;
+    font-size: 12px;
+  }
+  .soc-icon {
+    width: 16px;
+padding: 8px;
+margin: 8px;
+  }
+}
